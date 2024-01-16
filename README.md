@@ -16,5 +16,18 @@
 ![Alt text](./docs/coverrage.png)
 
 ## Features 
+- Search 
+![Alt text](./docs/search.gif)
+
+- Filter
+![Alt text](./docs/filter.gif)
+
+- Select Item
+![Alt text](./docs/select-item.gif)
+
+- Delete Item
+![Alt text](./docs/delete.gif)
+
+
 
 ## Storybook
