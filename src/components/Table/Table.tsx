@@ -19,7 +19,7 @@ interface Props<DataType> {
   onArchive?: () => void;
 }
 
-function Table<DataType extends { id: string } & Record<string, string | number | ReactNode>>({
+export function Table<DataType extends { id: string } & Record<string, string | number | ReactNode>>({
   columns,
   items,
   selectedIds,
@@ -122,4 +122,3 @@ function Table<DataType extends { id: string } & Record<string, string | number 
   );
 }
 
-export default Table;

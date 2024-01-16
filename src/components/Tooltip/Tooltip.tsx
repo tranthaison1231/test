@@ -3,7 +3,7 @@ interface Props {
   content: string
 }
 
-export default function Tooltip({ children, content } : Props) {
+export function Tooltip({ children, content } : Props) {
   return (
     <div>
       <span className="group relative">

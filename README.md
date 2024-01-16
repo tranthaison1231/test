@@ -28,6 +28,6 @@
 - Delete Item
 ![Alt text](./docs/delete.gif)
 
-
-
 ## Storybook
+
+![Alt text](storybook.png)

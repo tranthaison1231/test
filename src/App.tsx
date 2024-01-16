@@ -5,7 +5,7 @@ import { Card } from "./components/Card";
 import { Design, Filter, Sales, Setting, Support } from "./components/Icon";
 import { PaymentStatusTag, PaymentStatus } from './components/PaymentStatusTag/PaymentStatusTag';
 import { Search } from "./components/Search";
-import Table from "./components/Table/Table";
+import { Table } from "./components/Table/Table";
 import { formatMoney } from "./utils/money";
 import clsx from 'clsx'
 import { Popover } from "./components/Popover";

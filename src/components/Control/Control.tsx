@@ -1,6 +1,6 @@
 import { useMemo } from "react";
 import { Archive, Create, Detail, Download, Redo, Tag, Trash } from '../Icon';
-import Tooltip from "../Tooltip/Tooltip";
+import { Tooltip } from "../Tooltip/Tooltip";
 
 interface Props {
   onArchive?: () => void
