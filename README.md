@@ -30,4 +30,4 @@
 
 ## Storybook
 
-![Alt text](storybook.png)
+![Alt text](./docs/storybook.png)
