@@ -18,6 +18,7 @@ export default defineConfig({
         'src/vite-env.d.ts',
         'src/components/**/index.ts',
         'src/components/Icon',
+        'src/**/*.{stories,test}.{ts,tsx}',
       ],
       include: ['src/{components,hooks,utils}/**/*.{ts,tsx}'],
     },

@@ -1,5 +1,5 @@
 import { fireEvent, render } from '@testing-library/react';
-import Table from './Table';
+import { Table } from './Table';
 
 vi.mock('../Icon', () => ({
   Sort: () => <span>Sort Icon</span>,
