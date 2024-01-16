@@ -2,7 +2,7 @@ interface Props {
   name: string;
 }
 
-function generateColor(input: string): string {
+export function generateColor(input: string): string {
   let hash = 0;
 
   for (let i = 0; i < input.length; i++) {
@@ -13,9 +13,10 @@ function generateColor(input: string): string {
   return color;
 }
 
-export default function Avatar({ name }: Props) {
+export  function Avatar({ name }: Props) {
   return (
     <div
+      data-testid="avatar"
       style={{ backgroundColor: generateColor(name) }}
       className="flex items-center justify-center w-7 h-7 bg-red-500  rounded-full text-white font-medium text-xs"
     >

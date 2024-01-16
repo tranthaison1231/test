@@ -10,7 +10,7 @@ interface Props {
   status: string
 }
 
-export default function PaymentStatusTag({ status }: Props) {
+export function PaymentStatusTag({ status }: Props) {
   return (
     <div
       className={clsx('uppercase px-2.5 py-1 w-fit rounded-md font-bold', {

@@ -1,12 +1,12 @@
 import { useMemo } from "react";
-import { Archive, Create, Detail, Download, Redo, Tag, Trash } from './Icon';
-import Tooltip from "./Tooltip";
+import { Archive, Create, Detail, Download, Redo, Tag, Trash } from '../Icon';
+import Tooltip from "../Tooltip/Tooltip";
 
 interface Props {
   onArchive?: () => void
 }
 
-export default function Control({ onArchive }: Props) {
+export function Control({ onArchive }: Props) {
   const controls = [
     {
       title: 'Archive',
